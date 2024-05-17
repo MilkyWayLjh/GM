@@ -1,0 +1,201 @@
+[ {
+  "uid" : "b1c317d39a73f435",
+  "name" : "Z轴回原",
+  "time" : {
+    "start" : 1715943638216,
+    "stop" : 1715943642169,
+    "duration" : 3953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "917db889ba6a6e4e",
+  "name" : "Y轴回原",
+  "time" : {
+    "start" : 1715943632313,
+    "stop" : 1715943637143,
+    "duration" : 4830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ace7b01fcb4162ae",
+  "name" : "XYZ联动",
+  "time" : {
+    "start" : 1715943644402,
+    "stop" : 1715943651185,
+    "duration" : 6783
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "220dcbd65615947",
+  "name" : "读取X轴当前位置",
+  "time" : {
+    "start" : 1715943615738,
+    "stop" : 1715943615752,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b396a2025072e7df",
+  "name" : "DP清洗池排水动作检查",
+  "time" : {
+    "start" : 1715943800556,
+    "stop" : 1715943810748,
+    "duration" : 10192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c830aaef1ffb513",
+  "name" : "DP加液-mode1-动作检查",
+  "time" : {
+    "start" : 1715943743296,
+    "stop" : 1715943747035,
+    "duration" : 3739
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "203344dc42259645",
+  "name" : "超声波开启检查",
+  "time" : {
+    "start" : 1715943797198,
+    "stop" : 1715943800409,
+    "duration" : 3211
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d3ad94bc3f13da43",
+  "name" : "Z轴两段速运动",
+  "time" : {
+    "start" : 1715943642172,
+    "stop" : 1715943644399,
+    "duration" : 2227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8faad394f2e65795",
+  "name" : "读取Y轴当前位置",
+  "time" : {
+    "start" : 1715943632298,
+    "stop" : 1715943632310,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cce1b3bd2b7d2081",
+  "name" : "DP吸液动作检查-吸1号位",
+  "time" : {
+    "start" : 1715943734200,
+    "stop" : 1715943743293,
+    "duration" : 9093
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1f656a7ecb2f66d",
+  "name" : "DP清洗池充水动作检查",
+  "time" : {
+    "start" : 1715943791013,
+    "stop" : 1715943797195,
+    "duration" : 6182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4009c869e35522",
+  "name" : "X轴回原",
+  "time" : {
+    "start" : 1715943615756,
+    "stop" : 1715943627807,
+    "duration" : 12051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47a410bcf784c095",
+  "name" : "Z轴运动检查",
+  "time" : {
+    "start" : 1715943637147,
+    "stop" : 1715943638187,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "af7142eb3ee77e55",
+  "name" : "Y轴运动检查",
+  "time" : {
+    "start" : 1715943627811,
+    "stop" : 1715943632294,
+    "duration" : 4483
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4bcd2bdae03ca47e",
+  "name" : "DP清洗动作检查",
+  "time" : {
+    "start" : 1715943761295,
+    "stop" : 1715943791009,
+    "duration" : 29714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b6a2acabf20af14",
+  "name" : "DP加液-mode4-动作检查",
+  "time" : {
+    "start" : 1715943751529,
+    "stop" : 1715943761290,
+    "duration" : 9761
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fae091d5653c330a",
+  "name" : "X轴运动检查",
+  "time" : {
+    "start" : 1715943610367,
+    "stop" : 1715943615735,
+    "duration" : 5368
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "46ac95083eed8453",
+  "name" : "读取Z轴当前位置",
+  "time" : {
+    "start" : 1715943638191,
+    "stop" : 1715943638212,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9d180af4a0adbde5",
+  "name" : "超声波关闭检查",
+  "time" : {
+    "start" : 1715943800414,
+    "stop" : 1715943800552,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3b8e2f3a8f9cc132",
+  "name" : "DP加液-mode2-动作检查",
+  "time" : {
+    "start" : 1715943747039,
+    "stop" : 1715943751525,
+    "duration" : 4486
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

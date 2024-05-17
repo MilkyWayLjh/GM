@@ -1,0 +1,117 @@
+{
+  "uid" : "d1f656a7ecb2f66d",
+  "name" : "DP清洗池充水动作检查",
+  "fullName" : "case.test_01_dp_case#test_05_dp_pool_filling",
+  "historyId" : "539b363c8857e74895ac8ae2c594d589",
+  "time" : {
+    "start" : 1715943791013,
+    "stop" : 1715943797195,
+    "duration" : 6182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dp",
+    "time" : {
+      "start" : 1715943791013,
+      "stop" : 1715943791013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DP清洗池充水流程",
+      "time" : {
+        "start" : 1715943791013,
+        "stop" : 1715943797195,
+        "duration" : 6182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dp",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.dp_api.DPApi object at 0x16C608B0>"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "dp::0",
+    "time" : {
+      "start" : 1715943797195,
+      "stop" : 1715943797195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "DP清洗池充水"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dp_case"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "26760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_01_dp_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1f656a7ecb2f66d.json",
+  "parameterValues" : [ ]
+}

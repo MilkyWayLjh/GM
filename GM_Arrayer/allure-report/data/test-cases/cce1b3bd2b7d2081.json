@@ -1,0 +1,138 @@
+{
+  "uid" : "cce1b3bd2b7d2081",
+  "name" : "DP吸液动作检查-吸1号位",
+  "fullName" : "case.test_01_dp_case#test_01_dp_suction",
+  "historyId" : "4a7146886df85cb009a8c823536a46b1",
+  "time" : {
+    "start" : 1715943734200,
+    "stop" : 1715943743293,
+    "duration" : 9093
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dp_suction",
+    "time" : {
+      "start" : 1715943734200,
+      "stop" : 1715943734200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "dp",
+    "time" : {
+      "start" : 1715943734200,
+      "stop" : 1715943734200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DP吸液1号样本板位置",
+      "time" : {
+        "start" : 1715943734201,
+        "stop" : 1715943743293,
+        "duration" : 9092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dp",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.dp_api.DPApi object at 0x16B66F90>"
+      }, {
+        "name" : "dp_suction",
+        "value" : "{'aspirateSpitFluid': 1, 'pistonDischargeLevel': 20, 'pistonSpewingSpeed': 5, 'slowSuctionLevel': 2, 'slowSuctionSpeed': 2, 'suctionSuctionFluid': 4, 'xreadyPosition': 295, 'yreadyPosition': 324, 'zaxisCleaning': 80, 'zreadyPosition': 35, 'zsafety': 35}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "dp::0",
+    "time" : {
+      "start" : 1715943743293,
+      "stop" : 1715943743294,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DP吸液"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dp_case"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "26760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_01_dp_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dp_suction",
+    "value" : "{'aspirateSpitFluid': 1, 'pistonDischargeLevel': 20, 'pistonSpewingSpeed': 5, 'slowSuctionLevel': 2, 'slowSuctionSpeed': 2, 'suctionSuctionFluid': 4, 'xreadyPosition': 295, 'yreadyPosition': 324, 'zaxisCleaning': 80, 'zreadyPosition': 35, 'zsafety': 35}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cce1b3bd2b7d2081.json",
+  "parameterValues" : [ "{'aspirateSpitFluid': 1, 'pistonDischargeLevel': 20, 'pistonSpewingSpeed': 5, 'slowSuctionLevel': 2, 'slowSuctionSpeed': 2, 'suctionSuctionFluid': 4, 'xreadyPosition': 295, 'yreadyPosition': 324, 'zaxisCleaning': 80, 'zreadyPosition': 35, 'zsafety': 35}" ]
+}

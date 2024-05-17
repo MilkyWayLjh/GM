@@ -1,0 +1,277 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "PC-20230422LNPO",
+    "children" : [ {
+      "name" : "16060-MainThread",
+      "children" : [ {
+        "name" : "Z轴运动检查",
+        "uid" : "47a410bcf784c095",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943637147,
+          "stop" : 1715943638187,
+          "duration" : 1040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Y轴运动检查",
+        "uid" : "af7142eb3ee77e55",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943627811,
+          "stop" : 1715943632294,
+          "duration" : 4483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Z轴回原",
+        "uid" : "b1c317d39a73f435",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943638216,
+          "stop" : 1715943642169,
+          "duration" : 3953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "X轴运动检查",
+        "uid" : "fae091d5653c330a",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943610367,
+          "stop" : 1715943615735,
+          "duration" : 5368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Y轴回原",
+        "uid" : "917db889ba6a6e4e",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943632313,
+          "stop" : 1715943637143,
+          "duration" : 4830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "读取Y轴当前位置",
+        "uid" : "8faad394f2e65795",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943632298,
+          "stop" : 1715943632310,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Z轴两段速运动",
+        "uid" : "d3ad94bc3f13da43",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943642172,
+          "stop" : 1715943644399,
+          "duration" : 2227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "XYZ联动",
+        "uid" : "ace7b01fcb4162ae",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943644402,
+          "stop" : 1715943651185,
+          "duration" : 6783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "X轴回原",
+        "uid" : "af4009c869e35522",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943615756,
+          "stop" : 1715943627807,
+          "duration" : 12051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "读取Z轴当前位置",
+        "uid" : "46ac95083eed8453",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943638191,
+          "stop" : 1715943638212,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "读取X轴当前位置",
+        "uid" : "220dcbd65615947",
+        "parentUid" : "c56f0cd788535ba27893f540d79af772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943615738,
+          "stop" : 1715943615752,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c56f0cd788535ba27893f540d79af772"
+    }, {
+      "name" : "26760-MainThread",
+      "children" : [ {
+        "name" : "超声波关闭检查",
+        "uid" : "9d180af4a0adbde5",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943800414,
+          "stop" : 1715943800552,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "超声波开启检查",
+        "uid" : "203344dc42259645",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943797198,
+          "stop" : 1715943800409,
+          "duration" : 3211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DP吸液动作检查-吸1号位",
+        "uid" : "cce1b3bd2b7d2081",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943734200,
+          "stop" : 1715943743293,
+          "duration" : 9093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'aspirateSpitFluid': 1, 'pistonDischargeLevel': 20, 'pistonSpewingSpeed': 5, 'slowSuctionLevel': 2, 'slowSuctionSpeed': 2, 'suctionSuctionFluid': 4, 'xreadyPosition': 295, 'yreadyPosition': 324, 'zaxisCleaning': 80, 'zreadyPosition': 35, 'zsafety': 35}" ]
+      }, {
+        "name" : "DP清洗动作检查",
+        "uid" : "4bcd2bdae03ca47e",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943761295,
+          "stop" : 1715943791009,
+          "duration" : 29714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'numberSuctionCycles': 3, 'pistonDischargeLevel': 8, 'pistonPosition': 5, 'pistonSpewingSpeed': 5, 'pumpOutLiquidLevel': 6, 'slowlySuckLiquidLevel': 4, 'slowlySuckLiquidLevelSpeed': 5, 'slowlySuckOutLiquidLevel': 6, 'slowlySuckOutLiquidLevelSpeed': 5, 'storageTime': 5000, 'suctionLiquidLevel': 1, 'ultrasonicOpeningTime': 5000, 'waterDischargeTime': 10000, 'xreadyPosition': 59, 'yreadyPosition': 300, 'zaxisCleaningBit': 90, 'zlowSpeed': 40, 'zreadyPosition': 35, 'zsafety': 35}" ]
+      }, {
+        "name" : "DP加液-mode4-动作检查",
+        "uid" : "5b6a2acabf20af14",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943751529,
+          "stop" : 1715943761290,
+          "duration" : 9761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'delayAfterVomiting': 200, 'exhalationVelocity': 2, 'fillingMode': 15, 'liquidLevel1': 3.7, 'liquidLevel2': 4.1, 'liquidLevel3': 4.5, 'liquidLevel4': 4.9, 'xreadyPosition': 32, 'yreadyPosition': 165, 'zfillingLevel': 45, 'zlowSpeed': 20, 'zreadyPosition': 35, 'zsafety': 35}" ]
+      }, {
+        "name" : "DP加液-mode2-动作检查",
+        "uid" : "3b8e2f3a8f9cc132",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943747039,
+          "stop" : 1715943751525,
+          "duration" : 4486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'delayAfterVomiting': 200, 'exhalationVelocity': 2, 'fillingMode': 3, 'liquidLevel1': 4.5, 'liquidLevel2': 4.9, 'liquidLevel3': 4.5, 'liquidLevel4': 4.9, 'xreadyPosition': 32, 'yreadyPosition': 165, 'zfillingLevel': 45, 'zlowSpeed': 20, 'zreadyPosition': 35, 'zsafety': 35}" ]
+      }, {
+        "name" : "DP清洗池排水动作检查",
+        "uid" : "b396a2025072e7df",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943800556,
+          "stop" : 1715943810748,
+          "duration" : 10192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DP清洗池充水动作检查",
+        "uid" : "d1f656a7ecb2f66d",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943791013,
+          "stop" : 1715943797195,
+          "duration" : 6182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DP加液-mode1-动作检查",
+        "uid" : "8c830aaef1ffb513",
+        "parentUid" : "93dc0ab6c2ae38dfdbbb77f69feee44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715943743296,
+          "stop" : 1715943747035,
+          "duration" : 3739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'delayAfterVomiting': 200, 'exhalationVelocity': 2, 'fillingMode': 1, 'liquidLevel1': 4.9, 'liquidLevel2': 4.9, 'liquidLevel3': 4.9, 'liquidLevel4': 4.9, 'xreadyPosition': 32, 'yreadyPosition': 165, 'zfillingLevel': 45, 'zlowSpeed': 20, 'zreadyPosition': 35, 'zsafety': 35}" ]
+      } ],
+      "uid" : "93dc0ab6c2ae38dfdbbb77f69feee44d"
+    } ],
+    "uid" : "68e9357e11fef4168b0d90ef6be994b1"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,53 @@
+[
+    "DJ4原地吸液参数",
+    {
+        "liquidUptake1": 15,
+        "liquidUptake2": 15,
+        "liquidUptake3": 15,
+        "liquidUptake4": 15,
+        "suctionRatioColumn": 41.37,
+        "suctionVelocity": 2
+    },
+    "DJ4四联柱塞泵吸液参数-吸空气",
+    {
+        "airColumn1": 1,
+        "airColumn2": 1,
+        "airColumn3": 1,
+        "airColumn4": 1,
+        "airIntakeOrNot": 1,
+        "dj4DropBit": 60,
+        "dj4RisingLevel": 0,
+        "speed": 3,
+        "suctionNumber1": 15,
+        "suctionNumber2": 15,
+        "suctionNumber3": 15,
+        "suctionNumber4": 15,
+        "suctionRatio": 41.37,
+        "unAspiratedAir": 10,
+        "xreadyPosition": 26,
+        "yreadyPosition": 81,
+        "zreadyPosition": 35,
+        "zsafety": 35
+    },
+    "DJ4四联柱塞泵吸液参数-不吸空气",
+    {
+        "airColumn1": 1,
+        "airColumn2": 1,
+        "airColumn3": 1,
+        "airColumn4": 1,
+        "airIntakeOrNot": 0,
+        "dj4DropBit": 60,
+        "dj4RisingLevel": 0,
+        "speed": 3,
+        "suctionNumber1": 15,
+        "suctionNumber2": 15,
+        "suctionNumber3": 15,
+        "suctionNumber4": 15,
+        "suctionRatio": 41.37,
+        "unAspiratedAir": 10,
+        "xreadyPosition": 26,
+        "yreadyPosition": 81,
+        "zreadyPosition": 35,
+        "zsafety": 35
+    }
+]
