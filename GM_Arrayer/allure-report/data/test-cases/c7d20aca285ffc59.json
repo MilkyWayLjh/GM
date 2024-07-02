@@ -1,0 +1,119 @@
+{
+  "uid" : "c7d20aca285ffc59",
+  "name" : "DP清洗池充水动作检查",
+  "fullName" : "case.test_01_dp_case#test_05_dp_pool_filling",
+  "historyId" : "539b363c8857e74895ac8ae2c594d589",
+  "time" : {
+    "start" : 1716954078047,
+    "stop" : 1716954084210,
+    "duration" : 6163
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_01_dp_case.py:67: AssumptionFailure\n>>\tpytest.assume(GetKeyword.get_keyword(result, 'msg') == 'success')  # 断言响应体中信息为success\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               test_01_dp_case.py:67: AssumptionFailure\nE               >>\tpytest.assume(GetKeyword.get_keyword(result, 'msg') == 'success')  # 断言响应体中信息为success\nE               AssertionError: assert False\n\nD:\\Program Files\\Python37-32\\lib\\site-packages\\six.py:718: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dp",
+    "time" : {
+      "start" : 1716954078047,
+      "stop" : 1716954078047,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_01_dp_case.py:67: AssumptionFailure\n>>\tpytest.assume(GetKeyword.get_keyword(result, 'msg') == 'success')  # 断言响应体中信息为success\nAssertionError: assert False",
+    "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               test_01_dp_case.py:67: AssumptionFailure\nE               >>\tpytest.assume(GetKeyword.get_keyword(result, 'msg') == 'success')  # 断言响应体中信息为success\nE               AssertionError: assert False\n\nD:\\Program Files\\Python37-32\\lib\\site-packages\\six.py:718: FailedAssumption",
+    "steps" : [ {
+      "name" : "DP清洗池充水流程",
+      "time" : {
+        "start" : 1716954078048,
+        "stop" : 1716954084210,
+        "duration" : 6162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dp",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.dp_api.DPApi object at 0x16D435F0>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "dp::0",
+    "time" : {
+      "start" : 1716954084226,
+      "stop" : 1716954084226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "DP清洗池充水"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dp_case"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "18956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_01_dp_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7d20aca285ffc59.json",
+  "parameterValues" : [ ]
+}

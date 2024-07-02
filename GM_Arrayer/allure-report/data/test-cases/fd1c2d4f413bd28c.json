@@ -1,0 +1,118 @@
+{
+  "uid" : "fd1c2d4f413bd28c",
+  "name" : "Z轴运动检查",
+  "fullName" : "case.test_02_xyz_axis_move_case.TestZAxis#test_07_z_axis_move",
+  "historyId" : "2b36a455a9599292d3040d14321fc79e",
+  "time" : {
+    "start" : 1715943637147,
+    "stop" : 1715943638187,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xyz_axis",
+    "time" : {
+      "start" : 1715943637147,
+      "stop" : 1715943637147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Z轴动作反馈",
+      "time" : {
+        "start" : 1715943637147,
+        "stop" : 1715943638187,
+        "duration" : 1040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "xyz_axis",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.xyz_axis_move_api.AxisMoveApi object at 0x16B7AD50>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xyz_axis::0",
+    "time" : {
+      "start" : 1715943638188,
+      "stop" : 1715943638188,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Z轴移动功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_xyz_axis_move_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestZAxis"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "16060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_02_xyz_axis_move_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd1c2d4f413bd28c.json",
+  "parameterValues" : [ ]
+}

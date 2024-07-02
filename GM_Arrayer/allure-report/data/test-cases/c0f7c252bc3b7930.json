@@ -1,0 +1,128 @@
+{
+  "uid" : "c0f7c252bc3b7930",
+  "name" : "热封Z轴运动检查",
+  "fullName" : "case.test_03_heat_seal_flow_case.TestHeatSealZAxis#test_03_heat_seal_z_axis_move",
+  "historyId" : "84de4b2a43fdcdd4fc4d4278c13e784d",
+  "time" : {
+    "start" : 1716964759671,
+    "stop" : 1716964760840,
+    "duration" : 1169
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "heat_seal_flow",
+    "time" : {
+      "start" : 1716964759671,
+      "stop" : 1716964759671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "热封Z轴运动动作反馈",
+      "time" : {
+        "start" : 1716964759671,
+        "stop" : 1716964760840,
+        "duration" : 1169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "heat_seal_flow",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.heat_seal_flow_api.HeatSealFlowApi object at 0x16612F70>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "heat_seal_flow::0",
+    "time" : {
+      "start" : 1716964760840,
+      "stop" : 1716964760840,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "热封Z轴运动功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_heat_seal_flow_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHeatSealZAxis"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "23784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_heat_seal_flow_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2df37e72663c9c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1716963429733,
+        "stop" : 1716963430891,
+        "duration" : 1158
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0f7c252bc3b7930.json",
+  "parameterValues" : [ ]
+}

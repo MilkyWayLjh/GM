@@ -1,0 +1,128 @@
+{
+  "uid" : "78309d438cf98939",
+  "name" : "热封横切收刀检查",
+  "fullName" : "case.test_03_heat_seal_flow_case.TestTranSection#test_07_tran_section_return",
+  "historyId" : "ca9c7173bf5016691d75958986ae180a",
+  "time" : {
+    "start" : 1716964766935,
+    "stop" : 1716964767771,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "heat_seal_flow",
+    "time" : {
+      "start" : 1716964766934,
+      "stop" : 1716964766934,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "热封横切收刀动作反馈",
+      "time" : {
+        "start" : 1716964766935,
+        "stop" : 1716964767771,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "heat_seal_flow",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.heat_seal_flow_api.HeatSealFlowApi object at 0x1670CED0>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "heat_seal_flow::0",
+    "time" : {
+      "start" : 1716964767772,
+      "stop" : 1716964767772,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "热封横切收刀功能"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_heat_seal_flow_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTranSection"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "23784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_heat_seal_flow_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c6853e3ecbef996a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1716963437091,
+        "stop" : 1716963437929,
+        "duration" : 838
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78309d438cf98939.json",
+  "parameterValues" : [ ]
+}

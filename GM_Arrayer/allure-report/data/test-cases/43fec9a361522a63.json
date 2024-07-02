@@ -1,0 +1,125 @@
+{
+  "uid" : "43fec9a361522a63",
+  "name" : "XYZ联动",
+  "fullName" : "case.test_02_xyz_axis_move_case#test_11_xyz_linked_move",
+  "historyId" : "e457c2719ec685ffeb6001c478b64b41",
+  "time" : {
+    "start" : 1716954437821,
+    "stop" : 1716954438018,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xyz_axis",
+    "time" : {
+      "start" : 1716954437821,
+      "stop" : 1716954437821,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "XYZ联动反馈",
+      "time" : {
+        "start" : 1716954437821,
+        "stop" : 1716954438018,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "xyz_axis",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.xyz_axis_move_api.AxisMoveApi object at 0x17091C10>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xyz_axis::0",
+    "time" : {
+      "start" : 1716954438019,
+      "stop" : 1716954438019,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "XYZ联动功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_xyz_axis_move_case"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "20620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_02_xyz_axis_move_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "66b2e4987e8a3fb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715943644402,
+        "stop" : 1715943651185,
+        "duration" : 6783
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43fec9a361522a63.json",
+  "parameterValues" : [ ]
+}

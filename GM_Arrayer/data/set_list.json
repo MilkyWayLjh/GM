@@ -1,0 +1,246 @@
+[
+    {
+        "mode": "Auto",
+        "runGroups": [
+            {
+                "groupId": "1",
+                "runs": [
+                    {
+                        "runId": "11",
+                        "plan": {
+                            "name": "192*2",
+                            "bcScanner": {
+                                "enable": true
+                            },
+                            "dp": {
+                                "enable": true,
+                                "name": "192*2"
+                            },
+                            "dj": {
+                                "enable": true,
+                                "name": "192*2"
+                            }
+                        },
+                        "reactPlate": {
+                            "code": "1",
+                            "type": "384微孔板"
+                        },
+                        "samplePlate": [
+                            {
+                                "code": "020000177120",
+                                "type": "96孔板"
+                            },
+                            null,
+                            {
+                                "code": "020000177205",
+                                "type": "96孔板"
+                            },
+                            null
+                        ],
+                        "reagentPlate": {
+                            "code": "1",
+                            "type": "96孔板"
+                        },
+                        "djAspirationTimes": 1,
+                        "reagentPlatePos": "left",
+                        "reagentPlateWellPos": 1,
+                        "dpWashInterval": 1
+                    }
+                ]
+            },
+            {
+                "groupId": "2",
+                "runs": [
+                    {
+                        "runId": "21",
+                        "plan": {
+                            "name": "384*1",
+                            "bcScanner": {
+                                "enable": true
+                            },
+                            "dp": {
+                                "enable": true,
+                                "name": "384*1"
+                            },
+                            "dj": {
+                                "enable": true,
+                                "name": "384*1"
+                            }
+                        },
+                        "reactPlate": {
+                            "code": "2",
+                            "type": "384微孔板"
+                        },
+                        "samplePlate": [
+                            {
+                                "code": "020000177304",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "020000177441",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "020000177533",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "020000177632",
+                                "type": "96孔板"
+                            }
+                        ],
+                        "reagentPlate": {
+                            "code": "1",
+                            "type": "96孔板"
+                        },
+                        "djAspirationTimes": 1,
+                        "reagentPlatePos": "left",
+                        "reagentPlateWellPos": 1,
+                        "dpWashInterval": 1
+                    }
+                ]
+            },
+            {
+                "groupId": "3",
+                "runs": [
+                    {
+                        "runId": "31",
+                        "plan": {
+                            "name": "192*2",
+                            "bcScanner": {
+                                "enable": true
+                            },
+                            "dp": {
+                                "enable": true,
+                                "name": "192*2"
+                            },
+                            "dj": {
+                                "enable": true,
+                                "name": "192*2"
+                            }
+                        },
+                        "reactPlate": {
+                            "code": "3",
+                            "type": "384微孔板"
+                        },
+                        "samplePlate": [
+                            {
+                                "code": "020000177533",
+                                "type": "96孔板"
+                            },
+                            null,
+                            {
+                                "code": "020000177717",
+                                "type": "96孔板"
+                            },
+                            null
+                        ],
+                        "reagentPlate": {
+                            "code": "1",
+                            "type": "96孔板"
+                        },
+                        "djAspirationTimes": 1,
+                        "reagentPlatePos": "left",
+                        "reagentPlateWellPos": 1,
+                        "dpWashInterval": 1
+                    }
+                ]
+            },
+            {
+                "groupId": "4",
+                "runs": [
+                    {
+                        "runId": "41",
+                        "plan": {
+                            "name": "96*4",
+                            "bcScanner": {
+                                "enable": true
+                            },
+                            "dp": {
+                                "enable": true,
+                                "name": "96*4"
+                            },
+                            "dj": {
+                                "enable": true,
+                                "name": "96*4"
+                            }
+                        },
+                        "reactPlate": {
+                            "code": "4",
+                            "type": "384微孔板"
+                        },
+                        "samplePlate": [
+                            {
+                                "code": "020000177816",
+                                "type": "96孔板"
+                            },
+                            null,
+                            null,
+                            null
+                        ],
+                        "reagentPlate": {
+                            "code": "2",
+                            "type": "96孔板"
+                        },
+                        "djAspirationTimes": 1,
+                        "reagentPlatePos": "right",
+                        "reagentPlateWellPos": 1,
+                        "dpWashInterval": 1
+                    }
+                ]
+            },
+            {
+                "groupId": "5",
+                "runs": [
+                    {
+                        "runId": "51",
+                        "plan": {
+                            "name": "384*1",
+                            "bcScanner": {
+                                "enable": true
+                            },
+                            "dp": {
+                                "enable": true,
+                                "name": "384*1"
+                            },
+                            "dj": {
+                                "enable": true,
+                                "name": "384*1"
+                            }
+                        },
+                        "reactPlate": {
+                            "code": "5",
+                            "type": "384微孔板"
+                        },
+                        "samplePlate": [
+                            {
+                                "code": "000035012184",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "000035012207",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "000035018322",
+                                "type": "96孔板"
+                            },
+                            {
+                                "code": "020000177816",
+                                "type": "96孔板"
+                            }
+                        ],
+                        "reagentPlate": {
+                            "code": "1",
+                            "type": "96孔板"
+                        },
+                        "djAspirationTimes": 1,
+                        "reagentPlatePos": "left",
+                        "reagentPlateWellPos": 1,
+                        "dpWashInterval": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,128 @@
+{
+  "uid" : "2373e4b7fb56f4dc",
+  "name" : "热封竖切收刀检查",
+  "fullName" : "case.test_03_heat_seal_flow_case.TestVerticalCutting#test_09_vertical_cutting_return",
+  "historyId" : "d1a77495ae91d06e2a8a99d6a58d5c76",
+  "time" : {
+    "start" : 1716964768412,
+    "stop" : 1716964769040,
+    "duration" : 628
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "heat_seal_flow",
+    "time" : {
+      "start" : 1716964768411,
+      "stop" : 1716964768411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "热封竖切收刀动作反馈",
+      "time" : {
+        "start" : 1716964768412,
+        "stop" : 1716964769040,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "heat_seal_flow",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.heat_seal_flow_api.HeatSealFlowApi object at 0x16710CF0>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "heat_seal_flow::0",
+    "time" : {
+      "start" : 1716964769041,
+      "stop" : 1716964769041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "热封竖切收刀功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_heat_seal_flow_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVerticalCutting"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "23784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_heat_seal_flow_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3566a4a7b3a9ca82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1716963438568,
+        "stop" : 1716963439189,
+        "duration" : 621
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2373e4b7fb56f4dc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,128 @@
+{
+  "uid" : "ea5bb203d4387a02",
+  "name" : "压膜板收回检查",
+  "fullName" : "case.test_03_heat_seal_flow_case.TestDiaphragmPlaten#test_02_diaphragm_platen_return",
+  "historyId" : "d51122ca6c33065aeaa6642ac7799506",
+  "time" : {
+    "start" : 1716964758539,
+    "stop" : 1716964759667,
+    "duration" : 1128
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "heat_seal_flow",
+    "time" : {
+      "start" : 1716964758539,
+      "stop" : 1716964758539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "压膜板收回动作反馈",
+      "time" : {
+        "start" : 1716964758539,
+        "stop" : 1716964759667,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "heat_seal_flow",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.heat_seal_flow_api.HeatSealFlowApi object at 0x166123D0>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "heat_seal_flow::0",
+    "time" : {
+      "start" : 1716964759668,
+      "stop" : 1716964759668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "压膜板收回功能"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_heat_seal_flow_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiaphragmPlaten"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "23784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_heat_seal_flow_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8fb929e16921f1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1716963428606,
+        "stop" : 1716963429727,
+        "duration" : 1121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea5bb203d4387a02.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,114 @@
+{
+  "total" : 40,
+  "items" : [ {
+    "uid" : "edeba94e1bbf73a775b18df8cc336fe6",
+    "name" : "DP吸液",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "05cbf68223910afb0d82dc65848e32d8",
+    "name" : "DP加液-mode1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1ce1eb0f55aa7e5cd9bc28a28635316e",
+    "name" : "DP加液-mode2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bdba62a62a59fe7b98e19401512a5725",
+    "name" : "DP加液-mode4",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e0aacb5989eed6877e96d504da81281c",
+    "name" : "DP清洗",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b13c1a660757dc8ccd39b34ae0285dce",
+    "name" : "DP清洗池充水",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a751462dd1b0ccab3dd5a4e0ff2534dd",
+    "name" : "超声波开启",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "694d79411b31ce2d5b99501b52d9ff0e",
+    "name" : "超声波关闭",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6bc690c5b9c600a1c906dae6d139e934",
+    "name" : "DP清洗池排水",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "57cc66e98d2e3fdaa26b2fd3b4c2a6ae",
+    "name" : "X轴移动功能",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

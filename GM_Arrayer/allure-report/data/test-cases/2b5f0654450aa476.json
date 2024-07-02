@@ -1,0 +1,118 @@
+{
+  "uid" : "2b5f0654450aa476",
+  "name" : "Y轴回原",
+  "fullName" : "case.test_02_xyz_axis_move_case.TestYAxis#test_06_y_axis_home",
+  "historyId" : "ba1f68cfd283668fa60f89b9d11f66ec",
+  "time" : {
+    "start" : 1715943632313,
+    "stop" : 1715943637143,
+    "duration" : 4830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xyz_axis",
+    "time" : {
+      "start" : 1715943632313,
+      "stop" : 1715943632313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Y轴回原反馈",
+      "time" : {
+        "start" : 1715943632313,
+        "stop" : 1715943637143,
+        "duration" : 4830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "xyz_axis",
+        "value" : "<GM_Arrayer.interface.device_debug_plc.xyz_axis_move_api.AxisMoveApi object at 0x16B7AB50>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xyz_axis::0",
+    "time" : {
+      "start" : 1715943637144,
+      "stop" : 1715943637144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Y轴回原功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_xyz_axis_move_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYAxis"
+  }, {
+    "name" : "host",
+    "value" : "PC-20230422LNPO"
+  }, {
+    "name" : "thread",
+    "value" : "16060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_02_xyz_axis_move_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b5f0654450aa476.json",
+  "parameterValues" : [ ]
+}
